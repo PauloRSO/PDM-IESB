@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513041321062",
+    "firebase_url": "https://escolapp-5e199.firebaseio.com",
+    "project_id": "escolapp-5e199",
+    "storage_bucket": "escolapp-5e199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513041321062:android:677d5c6c0c5866cd",
+        "android_client_info": {
+          "package_name": "br.com.paulogabriel.pdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513041321062-ulm5kd16eritn54bksre7tc6hpesg5s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.paulogabriel.pdm",
+            "certificate_hash": "9f3c2a633b55496504f6c7edbf2fbd0d5500996b"
+          }
+        },
+        {
+          "client_id": "513041321062-toh2spd09av1lfrji74778a9cn1pd54n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaeT0p7exxlIJZllhm6mLDcL2KU3zveUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513041321062-toh2spd09av1lfrji74778a9cn1pd54n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

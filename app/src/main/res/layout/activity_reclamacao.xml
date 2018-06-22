@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.paulogabriel.pdm.Atividades.Reclamacao"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título:"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/reclamacao_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escreva o título"
+            android:layout_marginBottom="24dp"
+            android:maxLines="1"
+            android:maxLength="45"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mensagem:"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/reclamacao_mensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escreva a mensagem"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reclamacao_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/azul_card_background"
+        android:text="Enviar"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+</RelativeLayout>

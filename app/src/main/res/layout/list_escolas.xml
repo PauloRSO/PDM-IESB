@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_card_background"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/nome_da_escola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/com_facebook_button_background_color_focused"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Nome da Escola " />
+
+        <TextView
+            android:id="@+id/email_da_escola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/com_facebook_button_background_color_focused"
+            android:textSize="16dp"
+            tools:text="escola@escola.com" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

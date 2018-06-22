@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.paulogabriel.pdm.Atividades.MostraEscola"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mostra_escola_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:hint="Nome da escola"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/mostra_escola_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email da escola"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/latitude_escola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/longitude_escola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/botao_localizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/azul_card_background"
+            android:text="Ver Localização"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginRight="4dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/botao_enviar_reclamacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/azul_card_background"
+            android:text="Enviar Reclamação"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

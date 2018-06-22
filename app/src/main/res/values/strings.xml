@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Escolas Brasil</string>
+    <string name="title_activity_mapas">Mapas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapas_escolas">Map</string>
+
+    <string name="facebook_app_id">134725577179133</string>
+    <string name="fb_login_protocol_scheme">fb134725577179133</string>
+
+</resources>
